@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #courseForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  #courseForm input[type=text],
+  #courseForm input[type=time] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+  }
+  
+  #courseForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  #scheduleDisplay,
+  #conflictDisplay {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+  }
+  
+  .conflict {
+    color: red;
+  }
+  
+  .course-item {
+    background-color: #e3e3e3;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+  }
+/* ... previous styles ... */
+
+.schedule-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.schedule-day {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.schedule-day-name {
+  font-weight: bold;
+  padding: 5px;
+  background-color: #ddd;
+  margin-bottom: 5px;
+}
+
+.schedule-course {
+  background-color: #e3e3e3;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.no-conflict {
+  color: green;
+}
+
+/* ... previous styles ... */
+
+.schedule-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  .schedule-day {
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .schedule-day-name {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #ddd;
+    margin-bottom: 5px;
+  }
+  
+  .schedule-course {
+    background-color: #e3e3e3;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .no-conflict {
+    color: green;
+  }
+  
+  
